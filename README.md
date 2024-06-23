@@ -9,6 +9,6 @@
 #### In this project two apps were registered namely, *home* to deal with the navigation on the front end, user authenication and *forum* to deal with the posts comments and watchlist items. For Models, in *home* we have User,WatchList,Tickers and in *forum* we have Topic and Comments. 
 
 #### I am looking forward to improve the front end using react and tailwindcss and integrate oAuth for sign in/up for the users. 
-#### I have hosted the website in azure appservice using github deployement at [http://rallyproduction.azurewebsites.net/]http://rallyproduction.azurewebsites.net/
+#### I have hosted the website in azure appservice using github deployement at [http://rallyproduction.azurewebsites.net/](http://rallyproduction.azurewebsites.net/)
 
 Thank you for the course and oppurtunity. 
