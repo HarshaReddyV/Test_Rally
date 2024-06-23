@@ -141,7 +141,8 @@ def WatchListView(request):
     return render(request, 'home/watchlist.html', {
         'tickers': stocks
     })
-    
+
+@login_required(login_url='signin')
 def details(request, id):
     user = request.user
     item = Tickers.objects.get(id = id)
