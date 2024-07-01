@@ -133,10 +133,7 @@ def profile(request):
 @login_required(login_url='signin')
 def WatchListView(request):
     user = request.user
-    
-
     watchlist = get_object_or_404(WatchList, customer=user)
-
     stocks = watchlist.stocks.all()
     return render(request, 'home/watchlist.html', {
         'tickers': stocks
